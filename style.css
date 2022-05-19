@@ -369,6 +369,7 @@ main {
     width: 90%; 
     min-width: 288px;   
     height: auto;
+    margin: 0 auto;
 }
 
 .product-detail--title h2 {
