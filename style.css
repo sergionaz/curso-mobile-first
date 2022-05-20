@@ -21,6 +21,7 @@
     --off-white:#faf8f7;
     --just-white: #fff;
     --gray-black: #808080;
+    --gray-middle: #757575;
 }
 
 * {
@@ -145,7 +146,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: var(--gray-middle);
 }
 
 /* Tabla Monedas */
@@ -209,7 +210,7 @@ main {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
-    color: #757575;
+    color: var(--gray-middle);
 }
 
 .currency-table--container .down {
@@ -307,7 +308,7 @@ main {
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
-    color: #757575;
+    color: var(--gray-middle);
 }
 
 .comision-table--container .down {
@@ -445,7 +446,7 @@ main {
     width: 100%;
     min-width: 320px;
     max-width: 900px;
-    height: 50vh;    
+    height: 50vh;        
     background-image: url(./assets/imgs/bitcoin-baby-x2.jpg);    
     background-position: center;    
     background-size: cover;
@@ -457,5 +458,65 @@ main {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-plans-container {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    background-color: #faf8f7;
+    text-align: center;
+}
+
+.main-plans-container .plans--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;    
+    margin: 0 auto;
+}
+
+.main-plans-container .plans--title h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;    
+    color: var(--warm-black);    
+}
+
+.main-plans-container .plans--title p {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--gray-middle);
+}
+
+.plans-container--slider{
+
+}
+
+.plans-container--card {
+    position: relative;
+    width: 190px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-radius: 8px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container--card .plans-card--title {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 8px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     color: var(--just-white);
 }
