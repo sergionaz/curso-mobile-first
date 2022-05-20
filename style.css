@@ -447,6 +447,7 @@ main {
     min-width: 320px;
     max-width: 900px;
     height: 50vh;        
+    margin: 0 auto;
     background-image: url(./assets/imgs/bitcoin-baby-x2.jpg);    
     background-position: center;    
     background-size: cover;
